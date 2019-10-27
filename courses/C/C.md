@@ -6,23 +6,23 @@ Tutorials:
 - [Identifiers](tutorials/C_identifiers.md)
 - [Data Types](tutorials/C_data_types.md)
 - [Printing Text](tutorials/C_printing_text.md)
-- [Scanning Text](tutorials/C_scanning_text.md)
-- [Scopes](tutorials/C_scopes.md)
-- [Operators](tutorials/C_operators.md)
-- [Arithmetic and Compiler Math](tutorials/C_math.md)
-- [If-Else If-Else Statements](tutorials/C_if_elseif_else.md)
-- [Switch Statements](tutorials/C_switch.md)
-- [For Loops](tutorials/C_for_loop.md)
-- [While Loops](tutorials/C_while_loop.md)
-- [Do-While Loops](tutorials/C_do_while_loop.md)
-- [Macros and Preprocessing](tutorials/C_macros_preprocessing.md)
-- [Functions](tutorials/C_functions.md)
-- [Arrays](tutorials/C_arrays.md)
-- [Pointers (malloc, dereferencing)](tutorials/C_pointers_part1.md)
-- [Pointers (arithmetic, looping)](tutorials/C_pointers_part2.md)
-- [Pass-By-Reference vs Pass-By-Value](tutorials/C_pointers_part3.md)
-- [Structs](tutorials/C_structs.md)
-- [Unions](tutorials/C_unions.md)
-- [File I/O](tutorials/C_files.md)
+- [Scanning Text](tutorials/C_scanning_text.md) [IN PROGRESS]
+- [Scopes](tutorials/C_scopes.md) [EMPTY]
+- [Operators](tutorials/C_operators.md) [EMPTY]
+- [Arithmetic and Compiler Math](tutorials/C_math.md) [EMPTY]
+- [If-Else If-Else Statements](tutorials/C_if_elseif_else.md) [EMPTY]
+- [Switch Statements](tutorials/C_switch.md) [EMPTY]
+- [For Loops](tutorials/C_for_loop.md) [EMPTY]
+- [While Loops](tutorials/C_while_loop.md) [EMPTY]
+- [Do-While Loops](tutorials/C_do_while_loop.md) [EMPTY]
+- [Macros and Preprocessing](tutorials/C_macros_preprocessing.md) [EMPTY]
+- [Functions](tutorials/C_functions.md) [EMPTY]
+- [Arrays](tutorials/C_arrays.md) [EMPTY]
+- [Pointers (malloc, dereferencing)](tutorials/C_pointers_part1.md) [EMPTY]
+- [Pointers (arithmetic, looping)](tutorials/C_pointers_part2.md) [EMPTY]
+- [Pass-By-Reference vs Pass-By-Value](tutorials/C_pointers_part3.md) [EMPTY]
+- [Structs](tutorials/C_structs.md) [EMPTY]
+- [Unions](tutorials/C_unions.md) [EMPTY]
+- [File I/O](tutorials/C_files.md) [EMPTY]
 
 [Home](https://bvanseg.github.io)
