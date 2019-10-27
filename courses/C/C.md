@@ -1,8 +1,8 @@
 Welcome!
 
 Tutorials:
-- [The Main Function](tutorials
-- [Keywords](tutorials/C_keywords.md)/C_main_function.md)
+- [The Main Function](tutorials/C_main_function.md)
+- [Keywords](tutorials/C_keywords.md)
 - [Identifiers](tutorials/C_identifiers.md)
 - [Data Types](tutorials/C_data_types.md)
 - [Printing Text](tutorials/C_printing_text.md)
