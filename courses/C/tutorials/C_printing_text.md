@@ -85,7 +85,7 @@ int main()
     float foo = 0.30000;
     printf("%f\n", foo); //unformatted
     printf("%0.2f\n", foo); //round to 2 decimal points
-    printf("%-0.4f\n", foo); //round to 4 decimal points
+    printf("%0.4f\n", foo); //round to 4 decimal points
     return 0; 
 } 
 ```
