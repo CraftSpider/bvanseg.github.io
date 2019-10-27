@@ -11,7 +11,7 @@ Before diving in depth about both points, let's just look at an overview of the 
 ```c
 #include <stdio.h>
 
-int main(void)
+int main()
 {
     int foo = 0;
     scanf("%d", &foo);
@@ -30,7 +30,7 @@ As stated in the previous two points above the example, ``scanf`` is a little st
 ```c
 #include <stdio.h>
 
-int main(void)
+int main()
 {
     int x = 0, y = 0, z = 0;
     scanf("%d-%d-%d", &x, &y, &z);
@@ -48,7 +48,7 @@ It doesn't have to be dashes. It can be whatever format you want them to enter. 
 ```c
 #include <stdio.h>
 
-int main(void)
+int main()
 {
     int month = 0, day = 0, year = 0;
     scanf("%d/%d/%d", &month, &day, &year);

@@ -6,7 +6,7 @@ Why are scopes important? Well, let's consider the following.
 #include <stdio.h>
 #include <stdarg.h>
 
-int main(void)
+int main()
 {
     int foo = 0;
 
@@ -45,7 +45,7 @@ here is something that might interest you:
 
 int higherFoo = 5;
 
-int main(void)
+int main()
 {
     int foo = 0;
 
