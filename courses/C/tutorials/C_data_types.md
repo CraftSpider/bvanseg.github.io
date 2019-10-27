@@ -38,11 +38,11 @@ long double | 12 | 3.4E-4932 to 1.1E+4932
 
 ### Character Type
 There's only one character type called ``char``, and its size is 1 byte. Characters can hold any character on your keyboard, and are declared like so:
-```C
+```c
 char foo = 'y';
 ```
 Note that you must use single quotes and not double quotes when declaring a character. This, for example:
-```C
+```c
 char foo = "y";
 ```
 will throw a warning and additionally will **not** print correctly.
@@ -52,7 +52,21 @@ The ``void`` type is used to represent an empty value. These aren't typically us
 
 ## Other Types
 **"What about ``boolean``s in C?"**
-- A ``boolean`` data type (which represents ``true`` or ``false``) has no keyword of its own in C, but can be represented as either 1 or 0, respectively. 0 is generally regarded as ``false``, while any other number besides 0 is ``true``. Any numeric type (even floating point types!) can be used to represent ``true`` or ``false``.
+- A ``boolean`` data type (which represents ``true`` or ``false``) can be represented with either 1 or 0, respectively. 0 is generally regarded as ``false``, while any other number besides 0 is ``true``. Any numeric type (even floating point types!) can be used to represent ``true`` or ``false``.
+- Additionally, you can do ``#include <stdbool.h>`` of your file and use ``_Bool`` as you would any other type. For example:
+
+```c
+#include <stdio.h>
+#include <stdbool.h> // Include the boolean header file.
+
+int main() {
+    _Bool foo = true; // Create a boolean here.
+    
+    if(foo == true) { // True.
+        printf("foo is true!"); // The statement was true, so this will print.
+    }
+}
+```
 
 **"What about ``string``s in C?"**
 - Strings are a complicated "type" and require further analysis in a different tutorial. Right now this tutorial is meant to cover just the basic ones to understand.
