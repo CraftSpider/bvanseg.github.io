@@ -52,7 +52,7 @@ The ``void`` type is used to represent an empty value. These aren't typically us
 ## Other Types
 **"What about ``boolean``s in C?"**
 - A ``boolean`` data type (which represents ``true`` or ``false``) can be represented with either 1 or 0, respectively. 0 is generally regarded as ``false``, while any other number besides 0 is ``true``. Any numeric type (even floating point types!) can be used to represent ``true`` or ``false``.
-- Additionally, you can do ``#include <stdbool.h>`` of your file and use ``_Bool`` as you would any other type. For example:
+- Additionally, you can do ``#include <stdbool.h>`` at the top of your file and use ``_Bool`` as you would any other data type, except now you can set a variable with type ``_Bool`` to ``true`` or ``false`` instead of a number. For example:
 
 ```c
 #include <stdio.h>
