@@ -7,6 +7,7 @@ Below, there are some basic data types that are available for usage in C that yo
 ## Basic Types
 
 ### Whole Number Types
+
 Type | Bytes | Possible Values
 :---: | :---: | :---:
 byte | 1 | -128 to 127
@@ -25,6 +26,7 @@ long long | 8 | -9,223,372,036,854,775,807 to 9,223,372,036,854,775,806
     - These bullet points are also true for floating point types, as well.
 
 ### Floating Point Types
+
 Type | Bytes | Possible Values
 :---: | :---: | :---:
 float | 4 | 1.2E-38 to 3.4E+38
