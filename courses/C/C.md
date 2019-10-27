@@ -6,8 +6,8 @@ Tutorials:
 - [Identifiers](tutorials/C_identifiers.md)
 - [Data Types](tutorials/C_data_types.md)
 - [Printing Text](tutorials/C_printing_text.md)
-- [Scanning Text](tutorials/C_scanning_text.md) [IN PROGRESS]
-- [Scopes](tutorials/C_scopes.md) [EMPTY]
+- [Scanning Text](tutorials/C_scanning_text.md)
+- [Scopes](tutorials/C_scopes.md) [IN PROGRESS]
 - [Operators](tutorials/C_operators.md) [EMPTY]
 - [Arithmetic and Compiler Math](tutorials/C_math.md) [EMPTY]
 - [If-Else If-Else Statements](tutorials/C_if_elseif_else.md) [EMPTY]
