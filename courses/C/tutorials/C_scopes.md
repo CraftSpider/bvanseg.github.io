@@ -1,5 +1,5 @@
 # Scopes
-Scopes in programming languages are very simply, a pair of ``{}``, in which all code inbetween them are considered their own scope.
+Scopes in programming languages are, very simply a pair of ``{}`` in which all code inbetween them are considered their own scope.
 
 Why are scopes important? Well, let's consider the following.
 ```
