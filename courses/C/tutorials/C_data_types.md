@@ -80,6 +80,12 @@ int main() {
     }
 }
 ```
+which outputs:
+```
+foo is true!
+foo2 is false!
+I SHOULD print!
+```
 
 **"What about ``string``s in C?"**
 - Strings are a complicated "type" and require further analysis in a different tutorial. Right now this tutorial is meant to cover just the basic ones to understand.
