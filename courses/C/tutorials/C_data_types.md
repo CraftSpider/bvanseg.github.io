@@ -18,7 +18,6 @@ long long | 8 | -9,223,372,036,854,775,807 to 9,223,372,036,854,775,806
 
 **"int and long are the same size?! What gives?"**
 - For historical reasons with 32-bit systems (especially with Windows), a long was typically around the same size as an int. The general rule with data is the following:
-
     - byte <= short <= int <= long
 - For higher level languages, these types have a fixed and enforced size. But in C, they can change based on the compiler. Hence, with some compilers, in order to store larger data, you can make a ``long long``.
 - It's also worth noting that the above values are SIGNED (negatives and positives). If you wanted them to be unsigned, you can prefix the types with ``unsigned``. Since this will make them only positive, that means their positive maximum doubles in size!
