@@ -108,7 +108,7 @@ Escape Sequence | Usage
 \b | Goes back a space
 \t | Horizontal tab
 \v | Vertical tab
-\\ | Represents a backslash
+\\\ | Represents a backslash
 \' | Represents a single quote
 \" | Represents a double quote
 \0 | Represents a NULL
