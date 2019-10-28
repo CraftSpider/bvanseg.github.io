@@ -8,8 +8,8 @@ Tutorials:
 - [Printing Text](tutorials/C_printing_text.md)
 - [Scanning Text](tutorials/C_scanning_text.md)
 - [Scopes](tutorials/C_scopes.md)
-- [Operators](tutorials/C_operators.md) [IN PROGRESS]
-- [Arithmetic and Compiler Math](tutorials/C_math.md) [EMPTY]
+- [Operators](tutorials/C_operators.md)
+- [Arithmetic and Compiler Math](tutorials/C_math.md) [IN PROGRESS]
 - [If-Else If-Else Statements](tutorials/C_if_elseif_else.md) [EMPTY]
 - [Switch Statements](tutorials/C_switch.md) [EMPTY]
 - [For Loops](tutorials/C_for_loop.md) [EMPTY]
