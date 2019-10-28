@@ -12,8 +12,8 @@ Tutorials:
 - [Arithmetic and Compiler Math](tutorials/C_math.md) [EMPTY]
 - [If, Else If and Else Statements](tutorials/C_if_elseif_else.md)
 - [Switch Statements](tutorials/C_switch.md)
-- [For Loops](tutorials/C_for_loop.md) [IN PROGRESS]
-- [While Loops](tutorials/C_while_loop.md) [EMPTY]
+- [For Loops](tutorials/C_for_loop.md)
+- [While Loops](tutorials/C_while_loop.md) [IN PROGRESS]
 - [Do-While Loops](tutorials/C_do_while_loop.md) [EMPTY]
 - [Macros and Preprocessing](tutorials/C_macros_preprocessing.md) [EMPTY]
 - [Functions](tutorials/C_functions.md) [EMPTY]
