@@ -56,7 +56,7 @@ This code has the same output as the code above. Let's break that ``for`` loop d
 
 ``counter < 6;`` - This is known as the ``condition`` block. This is like an ``if`` statement that is checked every time right before the loop iterates (that is to say, every time it loops). In this scenario, the loop will stop executing when ``counter`` is no longer less than ``6``.
 
-``counter++)`` - This is the final block, the end being denoted by the ``)``. This block is known as the ``expression`` block. You can do any expression here, such as ``counter++``, which would allow our loop up there to eventually end. You can even call functions there!
+``counter++)`` - This is the final block, the end being denoted by the ``)``. This block is known as the ``expression`` block. **Code here is executed every loop iteration.** You can do any expression here, such as ``counter++``, which would allow our loop up there to eventually end. You can even call functions there!
 
 You can do almost anything in that ``expression`` block, such as ``counter *= 2``, ``counter--``, so on and so forth. So long as it is an **expression**, it's fine.
 
@@ -137,6 +137,47 @@ int main() {
 }
 ```
 And it still works just as well.
+
+## Loop Control
+Sometimes we may want to prematurely exit the loop, or, skip to the next iteration.
+
+To exit the loop, we can use the ``break`` keyword anywhere within the loop:
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+    for(int counter = 0; counter < 6; counter++) {
+        if(counter == 3)
+            break;
+
+        printf("counter is now %d\n", counter);
+    }
+
+    return 0;
+}
+```
+This will cause the loop to only print up until ``counter`` is ``3.``
+
+If we want to skip the loop when ``counter`` is a certain number, we can also do this:
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+    for(int counter = 0; counter < 6; counter++) {
+        if(counter == 3)
+            continue;
+
+        printf("counter is now %d\n", counter);
+    }
+
+    return 0;
+}
+```
+This will skip that iteration of the loop when ``counter`` is equal to ``3``. However, notice that it will still keep executing for when ``counter`` is ``4`` and ``5``.
 
 [![Discord](https://img.shields.io/discord/609993365832073217?color=7289da&label=discord)](https://discord.gg/Sw3npy4)
 
