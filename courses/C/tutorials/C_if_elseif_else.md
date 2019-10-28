@@ -81,7 +81,7 @@ int main() {
     } else if(age < 21) {
         printf("You are an adult, but you can not legally drink alcohol yet!\n");
     }else if(age < 62) {
-        printf("You are an adult, but are not yet eligible for social security!\n");
+        printf("Not only can you not drink, but you are also ineligible for social security!\n");
     }else {
         printf("You are an adult and can do everything legal!\n");
     }
@@ -139,7 +139,7 @@ int main() {
         printf("You are not yet an adult!\n");
     else if(age < 21)
         printf("You are an adult, but you can not legally drink alcohol yet!\n");
-    if(age < 62)
+    else if(age < 62)
             printf("Not only can you not drink, but you are also ineligible for social security!\n");
     else
         printf("You are an adult and can do everything legal!\n");
