@@ -101,7 +101,7 @@ And this would be just a straight-up infinite loop:
 int main() {
 
     for(;;) {
-        printf("Infinite loop!");
+        printf("Infinite loop!\n");
     }
 
     return 0;
