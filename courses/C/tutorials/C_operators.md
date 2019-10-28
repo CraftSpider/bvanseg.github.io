@@ -79,4 +79,6 @@ sizeof() | Takes the size of a given variable or keyword and returns the size of
 & | Returns the address of a variable. | int A = 3;<br>&A gives the address of A.
 * | Multiple uses. See pointers tutorials for a deeper explanation. |N/A
 
+[![Discord](https://img.shields.io/discord/609993365832073217?color=7289da&label=discord)](https://discord.gg/Sw3npy4)
+
 [Home](https://bvanseg.github.io)

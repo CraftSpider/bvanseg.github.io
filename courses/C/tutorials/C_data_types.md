@@ -93,4 +93,6 @@ I SHOULD print!
 **"What about ``NULL``?"**
 - ``NULL`` is a special type in relations to pointers, which will be covered later on down the road in those tutorials.
 
+[![Discord](https://img.shields.io/discord/609993365832073217?color=7289da&label=discord)](https://discord.gg/Sw3npy4)
+
 [Home](https://bvanseg.github.io)

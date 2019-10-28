@@ -66,4 +66,6 @@ A variable outside of a function? What is this blasphemy?!
 
 Well, ``higherFoo`` is actually in a default scope for files, which is referred to as a global scope. ALL scopes following that variable (functions and all) will be able to see that variable. Hence, we can change ``higherFoo`` within the main function without issue.
 
+[![Discord](https://img.shields.io/discord/609993365832073217?color=7289da&label=discord)](https://discord.gg/Sw3npy4)
+
 [Home](https://bvanseg.github.io)

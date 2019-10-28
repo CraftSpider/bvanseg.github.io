@@ -17,5 +17,6 @@ A lot of these you may rarely use, such as **volatile** or **register**. But sin
 
 Typically, your IDE will show some sort of clue that it is a keyword, most often through highlighting it a certain color.
 
+[![Discord](https://img.shields.io/discord/609993365832073217?color=7289da&label=discord)](https://discord.gg/Sw3npy4)
 
 [Home](https://bvanseg.github.io)

@@ -74,4 +74,6 @@ Addresses and what they *actually* are is far outside the scope of this tutorial
 **"I'm trying to use scanf, but for some reason it keeps skipping input. Why is this?"**
 - If you are using multiple ``scanf``s in a row, which means your user is pressing ENTER more than once, then that means there are ``\n`` characters leftover from previous ``scanf``s. To ignore those ``\n``s, you can put a space prior to scanning the character or number, like so: ``scanf(" %c", &yourVar);``
 
+[![Discord](https://img.shields.io/discord/609993365832073217?color=7289da&label=discord)](https://discord.gg/Sw3npy4)
+
 [Home](https://bvanseg.github.io)
