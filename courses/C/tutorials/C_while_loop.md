@@ -12,8 +12,9 @@ Consider the following:
 
 int main() {
 
-    while(1)
+    while(1) {
         printf("Infinite loop\n");
+    }
 
     return 0;
 }
@@ -21,6 +22,20 @@ int main() {
 Recall from the **Data Types** tutorial that ``boolean`` data (``true`` or ``false``) can also be represented with ``X`` or ``0``, respectively, where ``X`` is any number besides ``0``.
 
 This means that the ``condition`` block for that ``while`` loop above is ``true``, therefore, it is an infinite loop.
+
+As can be expected, the ``while`` loop can run fine without brackets:
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+    while(1)
+        printf("Infinite loop\n");
+
+    return 0;
+}
+```
 
 [![Discord](https://img.shields.io/discord/609993365832073217?color=7289da&label=discord)](https://discord.gg/Sw3npy4)
 
