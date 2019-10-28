@@ -13,9 +13,9 @@ Tutorials:
 - [If, Else If and Else Statements](tutorials/C_if_elseif_else.md)
 - [Switch Statements](tutorials/C_switch.md)
 - [For Loops](tutorials/C_for_loop.md)
-- [While Loops](tutorials/C_while_loop.md) [IN PROGRESS]
-- [Do-While Loops](tutorials/C_do_while_loop.md) [EMPTY]
-- [Macros and Preprocessing](tutorials/C_macros_preprocessing.md) [EMPTY]
+- [While Loops](tutorials/C_while_loop.md)
+- [Do-While Loops](tutorials/C_do_while_loop.md)
+- [Macros and Preprocessing](tutorials/C_macros_preprocessing.md) [IN PROGRESS]
 - [Functions](tutorials/C_functions.md) [EMPTY]
 - [Arrays](tutorials/C_arrays.md) [EMPTY]
 - [Pointers (malloc, dereferencing)](tutorials/C_pointers_part1.md) [EMPTY]
