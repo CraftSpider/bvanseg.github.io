@@ -10,7 +10,7 @@ Tutorials:
 - [Scopes](tutorials/C_scopes.md)
 - [Operators](tutorials/C_operators.md)
 - [Arithmetic and Compiler Math](tutorials/C_math.md) [EMPTY]
-- [If-Else If-Else Statements](tutorials/C_if_elseif_else.md)
+- [If, Else If and Else Statements](tutorials/C_if_elseif_else.md)
 - [Switch Statements](tutorials/C_switch.md)
 - [For Loops](tutorials/C_for_loop.md) [IN PROGRESS]
 - [While Loops](tutorials/C_while_loop.md) [EMPTY]
