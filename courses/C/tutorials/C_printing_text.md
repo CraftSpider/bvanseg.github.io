@@ -62,6 +62,8 @@ Make sure that you match up your format specifiers to your variable data types!
 Not only can you specify what type to put into the template string, you can also specify how to print out that data. Consider the following:
 ```c
 #include <stdio.h> 
+#include <stdlib.h>
+
 int main() 
 { 
     char str[] = "test"; 
@@ -80,6 +82,8 @@ Putting a number before the format specifier will make ``printf`` add X amount o
 With floating-point data, you can also **round** the data to however many points you need. For example:
 ```c
 #include <stdio.h> 
+#include <stdlib.h>
+
 int main() 
 { 
     float foo = 0.30000;

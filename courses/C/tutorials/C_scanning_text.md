@@ -10,6 +10,7 @@ Not only can you output data from your program, but you can also await data from
 Before diving in depth about both points, let's just look at an overview of the function's usage:
 ```c
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
@@ -29,6 +30,7 @@ With ``scanf``, it is expected that the variable you are scanning into has the s
 As stated in the previous two points above the example, ``scanf`` is a little strict when it comes to how it parses the input. Consider the following:
 ```c
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
@@ -47,6 +49,7 @@ Where x is set to 1, y is set to 2, and z is set to 3. If the user does not foll
 It doesn't have to be dashes. It can be whatever format you want them to enter. It could be a time format, for example:
 ```c
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
