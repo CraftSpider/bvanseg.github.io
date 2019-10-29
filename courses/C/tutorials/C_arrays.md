@@ -19,14 +19,17 @@ int main() {
 }
 ```
 As seen above, we create an ``array`` called ``exampleArray``. This ``exampleArray`` is of the type ``int``. So that means every element inside of it must be an ``int``:
+
 ![Fresh Array](res/freshArray.png)
 
 We then set the first element (referenced using an index of 0) to ``24``:
+
 ![Fresh Array](res/exampleArrayElement0.png)
 
 Notice that the ``array`` starts from ``0`` when referring to positions of elements within the ``array``, even though we defined the size when creating the ``array`` to be ``8``. Keep this in mind when accessing ``array``s! If we tried to access element ``8`` above by doing ``exampleArray[8]``, this is actually NOT correct, because that would be the 9th element, since ``array``s start from position ``0``.
 
 To properly access and set the last element of the ``array``, we can do something like ``exampleArray[7] = 5;``, and that will be fine:
+
 ![Fresh Array](res/exampleArrayElement7.png)
 
 Once we set these values, we can retrieve them at any time by simply doing ``exampleArray[i]`` where ``i`` is the position of the element we want.
