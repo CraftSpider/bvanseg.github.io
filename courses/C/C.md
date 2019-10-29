@@ -15,8 +15,8 @@ Tutorials:
 - [For Loops](tutorials/C_for_loop.md)
 - [While Loops](tutorials/C_while_loop.md)
 - [Do-While Loops](tutorials/C_do_while_loop.md)
-- [Macros and Preprocessing](tutorials/C_macros_preprocessing.md) [IN PROGRESS]
-- [Functions](tutorials/C_functions.md) [EMPTY]
+- [Functions](tutorials/C_functions.md) [IN PROGRESS]
+- [Macros and Preprocessing](tutorials/C_macros_and_preprocessing.md)
 - [Arrays](tutorials/C_arrays.md) [EMPTY]
 - [Pointers (malloc, dereferencing)](tutorials/C_pointers_part1.md) [EMPTY]
 - [Pointers (arithmetic, looping)](tutorials/C_pointers_part2.md) [EMPTY]
