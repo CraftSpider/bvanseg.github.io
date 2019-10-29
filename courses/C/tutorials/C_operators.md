@@ -16,6 +16,19 @@ Symbol | Description | Usage
 ++ | Increments a variable (adds 1 to it) | A = 3;<br>A++;
 -\- | Decerements a variable (subtracts 1 to it) | A = 3;<br>A-\-;
 
+### Pre vs Post Increment/Decrement Operators
+With the last two operators above (``++`` and ``--``), it's important to note the two various ways to use each. Suppose we have a variable ``x`` of type ``int`` that has a value of ``3``. Then suppose we are using x as follows:
+
+``int c = 15 * x++;``
+
+The type of ``++`` operator being used here is the **post**-increment operator, because it comes *after* the variable being incremented. ``c`` will result in a value of ``45``, since C does the multiplication ``15 * 3`` and *then* increments ``x``. If we print out ``x`` after setting ``c``, we get ``4``.
+
+If we wanted to first increment ``x`` and **then** use it in the multiplication, we would use the **pre**-increment operator:
+
+``int c = 15 * ++x;``
+
+Which results in ``60``, as expected. This principle also applies to the decrement (``--``) operator.
+
 ## Relational Operators
 
 Symbol | Description | Usage
