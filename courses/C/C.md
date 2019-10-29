@@ -5,6 +5,8 @@ Tutorials:
 - [Keywords](tutorials/C_keywords.md)
 - [Identifiers](tutorials/C_identifiers.md)
 - [Data Types](tutorials/C_data_types.md)
+- [Comments]() [EMPTY]
+- [Constants]() [EMPTY]
 - [Printing Text](tutorials/C_printing_text.md)
 - [Scanning Text](tutorials/C_scanning_text.md)
 - [Scopes](tutorials/C_scopes.md)
@@ -21,7 +23,12 @@ Tutorials:
 - [Pointers (malloc, dereferencing)](tutorials/C_pointers_part1.md) [IN PROGRESS]
 - [Pointers (arithmetic, looping)](tutorials/C_pointers_part2.md) [EMPTY]
 - [Pass-By-Reference vs Pass-By-Value](tutorials/C_pointers_part3.md) [EMPTY]
+- [Strings]() [EMPTY]
 - [Structs](tutorials/C_structs.md) [EMPTY]
+- [Type Casting]() [EMPTY]
+- [Typedef]() [EMPTY]
+- [Bit Fields]() [EMPTY]
+- [Header Files]() [EMPTY]
 - [Unions](tutorials/C_unions.md) [EMPTY]
 - [File I/O](tutorials/C_files.md) [EMPTY]
 
