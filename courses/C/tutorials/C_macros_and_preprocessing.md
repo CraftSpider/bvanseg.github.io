@@ -16,9 +16,10 @@ Directive | Description
 \#pragma | Can be used to interact with the compiler by using special commands.
 \#error | Prints an error message of your choice to the console. This allows you to create custom errors before your program runs!
 \#define | Creates a macro with a name and a value.
-\#define | Removes a macro with the given name.
+\#undef | Removes a macro with the given name.
 \#ifdef | Checks to see if a macro of the given name exists. Similar to an if statement, but specific to checking whether a macro exists.
 \#ifndef | Checks to see if a macro of the given name does NOT exist. Similar to an if statement, but specific to checking whether a macro does NOT exist.
+\#endif | Signifies to C's preprocessor that we are done with defining macros. Should only accompany a \#ifdef or \#ifndef.
 \#if | Can be used to check macro values under certain conditions. Similar to if statement.
 \#elif | Can be used to check macro values under certain conditions. Similar to an else-if statement.
 \#else | Can be used in a manner similar to the else statement along with #if and #elif.
@@ -75,6 +76,7 @@ What if PI was already defined, and had some other value? What if C already defi
 
 #ifndef PI
 #define PI 3.141592653 // This won't be defined if PI already exists.
+#endif
 
 int main() {
     printf("PI is %lf", PI);
@@ -90,6 +92,7 @@ Alternatively, what if we DID want to use our version of PI instead? Well, we ca
 #ifdef PI // If C's or some version of PI already exists...
 #undef PI // Undefine it.
 #define PI 3.141592653 // Define our own PI with more precision.
+#endif
 
 int main() {
     printf("PI is %lf", PI);
