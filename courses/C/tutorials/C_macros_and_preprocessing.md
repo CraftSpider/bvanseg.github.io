@@ -19,7 +19,7 @@ Directive | Description
 \#undef | Removes a macro with the given name.
 \#ifdef | Checks to see if a macro of the given name exists. Similar to an if statement, but specific to checking whether a macro exists.
 \#ifndef | Checks to see if a macro of the given name does NOT exist. Similar to an if statement, but specific to checking whether a macro does NOT exist.
-\#endif | Signifies to C's preprocessor that we are done with defining macros. Should only accompany a \#ifdef or \#ifndef.
+\#endif | Signifies to C's preprocessor that we are done with certain preprocessor logic. Should only accompany a \#if, \#ifdef, or a \#ifndef.
 \#if | Can be used to check macro values under certain conditions. Similar to if statement.
 \#elif | Can be used to check macro values under certain conditions. Similar to an else-if statement.
 \#else | Can be used in a manner similar to the else statement along with #if and #elif.
