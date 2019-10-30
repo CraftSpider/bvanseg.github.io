@@ -5,10 +5,10 @@ Welcome to the C course!
 ## Tutorials:
 
 ### Getting Started
-- [Prerequisites]()
-- [Setting up C with CodeBlocks]()
-- [Setting up C with Visual Studio Code]()
-- [Setting up C with CLion]()
+- [Prerequisites]() [EMPTY]
+- [Setting up C with CodeBlocks]() [EMPTY]
+- [Setting up C with Visual Studio Code]() [EMPTY]
+- [Setting up C with CLion]() [EMPTY]
 
 ### Beginner
 - [The Main Function](tutorials/C_main_function.md)
