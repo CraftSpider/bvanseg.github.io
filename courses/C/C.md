@@ -31,7 +31,7 @@ Welcome to the C course!
 
 ### Intermediate
 - [Functions](tutorials/C_functions.md)
-- [Compile Time vs Runtime]() [IN PROGRESS]
+- [Compile Time vs Runtime](tutorials/C_compile_vs_run.md)
 - [Macros and Preprocessing](tutorials/C_macros_and_preprocessing.md)
 - [Arrays](tutorials/C_arrays.md)
 - [Pointers (dereferencing, malloc)](tutorials/C_pointers_part1.md)
