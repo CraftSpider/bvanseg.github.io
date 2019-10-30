@@ -24,6 +24,7 @@ Welcome to the C course!
 
 ### Intermediate
 - [Functions](tutorials/C_functions.md)
+- [Compile Time vs Runtime]() [EMPTY]
 - [Macros and Preprocessing](tutorials/C_macros_and_preprocessing.md)
 - [Arrays](tutorials/C_arrays.md)
 - [Pointers (dereferencing, malloc)](tutorials/C_pointers_part1.md)
@@ -37,6 +38,15 @@ Welcome to the C course!
 - [Header Files]() [EMPTY]
 - [Unions](tutorials/C_unions.md) [EMPTY]
 - [File I/O](tutorials/C_files.md) [EMPTY]
+
+### Advanced
+- [Introduction to C's Memory Layout]() [EMPTY]
+- [Text Segment]() [EMPTY]
+- [Initialized Data Segment]() [EMPTY]
+- [Uninitialized Data Segment]() [EMPTY]
+- [The Stack]() [EMPTY]
+- [The Heap]() [EMPTY]
+
 
 ## Examples
 Courtesy of developers like you, we have some examples of neat code that others have created. If you want to go that extra step further, and try to reverse-engineer how certain code works, these examples are a great place to start!
