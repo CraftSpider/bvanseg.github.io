@@ -39,7 +39,7 @@ Welcome to the C course!
 - [Pointers (arithmetic, looping)](tutorials/C_pointers_part2.md)
 - [Pointers (Pass-By-Value vs Pass-By-Reference)](tutorials/C_pointers_part3.md)
 - [Strings](tutorials/C_strings.md)
-- [Structs](tutorials/C_structs.md) [IN PROGRESS]
+- [Structs](tutorials/C_structs.md)
 - [Typedef]() [EMPTY]
 - [Bit Fields]() [EMPTY]
 - [Header Files]() [EMPTY]
