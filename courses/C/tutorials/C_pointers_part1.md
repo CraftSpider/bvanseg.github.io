@@ -111,6 +111,18 @@ Which outputs:
 ```
 The two pointers and the variable they point to are all linked.
 
+Another interesting thing with ``pointer``s is this:
+
+```c
+int x = 2;
+int y = 3;
+
+int z = *&x + y;
+```
+What the heck is going on with ``z``? Well if we read it aloud, we see that C is getting the address of ``x`` (a ``pointer``), and then immediately dereferencing the ``pointer`` from ``&``, getting it's value.
+
+So really, both the ``*`` and the ``&`` cancel each other out on ``x``.
+
 ## Changing Values across Functions
 Let's go even further. Remember in our earlier tutorial about **functions**, that changing the value of a parameter does **not** change the value back from where we called it? So if we had a function ``foo`` and passed ``x`` into it from the ``main`` function, and tried changing the value of ``x`` from inside the ``main`` function, it wouldn't change back over in ``main``, only for the rest of ``foo``'s execution up until a ``return`` or the ending bracket.
 
