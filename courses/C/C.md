@@ -20,9 +20,9 @@ Tutorials:
 - [Functions](tutorials/C_functions.md)
 - [Macros and Preprocessing](tutorials/C_macros_and_preprocessing.md)
 - [Arrays](tutorials/C_arrays.md)
-- [Pointers (malloc, dereferencing)](tutorials/C_pointers_part1.md) [IN PROGRESS]
-- [Pointers (arithmetic, looping)](tutorials/C_pointers_part2.md) [EMPTY]
-- [Pass-By-Reference vs Pass-By-Value](tutorials/C_pointers_part3.md) [EMPTY]
+- [Pointers (dereferencing, malloc)](tutorials/C_pointers_part1.md)
+- [Pointers (arithmetic, looping)](tutorials/C_pointers_part2.md) [IN PROGRESS]
+- [Pointers (Pass-By-Reference vs Pass-By-Value)](tutorials/C_pointers_part3.md) [EMPTY]
 - [Strings]() [EMPTY]
 - [Structs](tutorials/C_structs.md) [EMPTY]
 - [Type Casting]() [EMPTY]
