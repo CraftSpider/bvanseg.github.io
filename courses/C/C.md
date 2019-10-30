@@ -46,6 +46,7 @@ Welcome to the C course!
 - [Uninitialized Data Segment]() [EMPTY]
 - [The Stack]() [EMPTY]
 - [The Heap]() [EMPTY]
+- [Structure Alignment]() [EMPTY]
 
 
 ## Examples
