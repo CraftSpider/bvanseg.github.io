@@ -1,6 +1,8 @@
 # Welcome!
 
-Tutorials:
+Welcome to the C course!
+
+##Tutorials:
 
 ### Beginner
 - [The Main Function](tutorials/C_main_function.md)
@@ -35,6 +37,11 @@ Tutorials:
 - [Header Files]() [EMPTY]
 - [Unions](tutorials/C_unions.md) [EMPTY]
 - [File I/O](tutorials/C_files.md) [EMPTY]
+
+## Examples
+Courtesy of developers like you, we have some examples of neat code that others have created. If you want to go that extra step further, and try to reverse-engineer how certain code works, these examples are a great place to start!
+
+- [Custom ``scanf`` function that takes a single pointer](examples/ex1.md)
 
 [![Discord](https://img.shields.io/discord/609993365832073217?color=7289da&label=discord)](https://discord.gg/Sw3npy4)
 
