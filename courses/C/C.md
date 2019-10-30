@@ -4,6 +4,12 @@ Welcome to the C course!
 
 ## Tutorials:
 
+### Getting Started
+- [Prerequisites]()
+- [Setting up C with CodeBlocks]()
+- [Setting up C with Visual Studio Code]()
+- [Setting up C with CLion]()
+
 ### Beginner
 - [The Main Function](tutorials/C_main_function.md)
 - [Keywords](tutorials/C_keywords.md)
@@ -18,6 +24,7 @@ Welcome to the C course!
 - [Arithmetic and Compiler Math](tutorials/C_math.md) [EMPTY]
 - [If, Else If and Else Statements](tutorials/C_if_elseif_else.md)
 - [Switch Statements](tutorials/C_switch.md)
+- [Goto and Labels]() [EMPTY]
 - [For Loops](tutorials/C_for_loop.md)
 - [While Loops](tutorials/C_while_loop.md)
 - [Do-While Loops](tutorials/C_do_while_loop.md)
@@ -46,7 +53,8 @@ Welcome to the C course!
 - [Uninitialized Data Segment]() [EMPTY]
 - [The Stack]() [EMPTY]
 - [The Heap]() [EMPTY]
-- [Structure Alignment]() [EMPTY]
+- [Variadic Arguments]() [EMPTY]
+- [Struct Alignment]() [EMPTY]
 
 
 ## Examples
