@@ -1,12 +1,14 @@
-Welcome!
+# Welcome!
 
 Tutorials:
+
+### Beginner
 - [The Main Function](tutorials/C_main_function.md)
 - [Keywords](tutorials/C_keywords.md)
 - [Identifiers](tutorials/C_identifiers.md)
 - [Data Types](tutorials/C_data_types.md)
-- [Comments]() [EMPTY]
-- [Constants]() [EMPTY]
+- [Comments]() [IN PROGRESS]
+- [Constants]() [IN PROGRESS]
 - [Printing Text](tutorials/C_printing_text.md)
 - [Scanning Text](tutorials/C_scanning_text.md)
 - [Scopes](tutorials/C_scopes.md)
@@ -17,6 +19,8 @@ Tutorials:
 - [For Loops](tutorials/C_for_loop.md)
 - [While Loops](tutorials/C_while_loop.md)
 - [Do-While Loops](tutorials/C_do_while_loop.md)
+
+### Intermediate
 - [Functions](tutorials/C_functions.md)
 - [Macros and Preprocessing](tutorials/C_macros_and_preprocessing.md)
 - [Arrays](tutorials/C_arrays.md)
