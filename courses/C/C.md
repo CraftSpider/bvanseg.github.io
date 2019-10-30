@@ -24,20 +24,20 @@ Welcome to the C course!
 - [Arithmetic and Compiler Math](tutorials/C_math.md) [EMPTY]
 - [If, Else If and Else Statements](tutorials/C_if_elseif_else.md)
 - [Switch Statements](tutorials/C_switch.md)
-- [Goto and Labels]() [EMPTY]
+- [Goto and Labels]() [IN PROGRESS]
 - [For Loops](tutorials/C_for_loop.md)
 - [While Loops](tutorials/C_while_loop.md)
 - [Do-While Loops](tutorials/C_do_while_loop.md)
 
 ### Intermediate
 - [Functions](tutorials/C_functions.md)
-- [Compile Time vs Runtime]() [EMPTY]
+- [Compile Time vs Runtime]() [IN PROGRESS]
 - [Macros and Preprocessing](tutorials/C_macros_and_preprocessing.md)
 - [Arrays](tutorials/C_arrays.md)
 - [Pointers (dereferencing, malloc)](tutorials/C_pointers_part1.md)
 - [Pointers (arithmetic, looping)](tutorials/C_pointers_part2.md)
-- [Pointers (Pass-By-Reference vs Pass-By-Value)](tutorials/C_pointers_part3.md) [IN PROGRESS]
-- [Strings]() [EMPTY]
+- [Pointers (Pass-By-Value vs Pass-By-Reference)](tutorials/C_pointers_part3.md)
+- [Strings]() [IN PROGRESS]
 - [Structs](tutorials/C_structs.md) [EMPTY]
 - [Type Casting]() [EMPTY]
 - [Typedef]() [EMPTY]
