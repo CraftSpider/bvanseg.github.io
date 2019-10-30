@@ -37,8 +37,8 @@ Welcome to the C course!
 - [Pointers (dereferencing, malloc)](tutorials/C_pointers_part1.md)
 - [Pointers (arithmetic, looping)](tutorials/C_pointers_part2.md)
 - [Pointers (Pass-By-Value vs Pass-By-Reference)](tutorials/C_pointers_part3.md)
-- [Strings]() [IN PROGRESS]
-- [Structs](tutorials/C_structs.md) [EMPTY]
+- [Strings](tutorials/C_strings.md)
+- [Structs](tutorials/C_structs.md) [IN PROGRESS]
 - [Type Casting]() [EMPTY]
 - [Typedef]() [EMPTY]
 - [Bit Fields]() [EMPTY]
