@@ -10,7 +10,7 @@ Welcome to the C course!
 - [Identifiers](tutorials/C_identifiers.md)
 - [Data Types](tutorials/C_data_types.md)
 - [Comments](tutorials/C_comments.md)
-- [Constants]() [IN PROGRESS]
+- [Constants](tutorials/C_constants.md)
 - [Printing Text](tutorials/C_printing_text.md)
 - [Scanning Text](tutorials/C_scanning_text.md)
 - [Scopes](tutorials/C_scopes.md)
