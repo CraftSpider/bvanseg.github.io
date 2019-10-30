@@ -21,6 +21,7 @@ Welcome to the C course!
 - [Scanning Text](tutorials/C_scanning_text.md)
 - [Scopes](tutorials/C_scopes.md)
 - [Operators](tutorials/C_operators.md)
+- [Type Casting]() [EMPTY]
 - [Arithmetic and Compiler Math](tutorials/C_math.md) [EMPTY]
 - [If, Else If and Else Statements](tutorials/C_if_elseif_else.md)
 - [Switch Statements](tutorials/C_switch.md)
@@ -39,7 +40,6 @@ Welcome to the C course!
 - [Pointers (Pass-By-Value vs Pass-By-Reference)](tutorials/C_pointers_part3.md)
 - [Strings](tutorials/C_strings.md)
 - [Structs](tutorials/C_structs.md) [IN PROGRESS]
-- [Type Casting]() [EMPTY]
 - [Typedef]() [EMPTY]
 - [Bit Fields]() [EMPTY]
 - [Header Files]() [EMPTY]
