@@ -46,14 +46,14 @@ end
 ```
 
 ## thread
-*Concurrence* is handled via threads. Threading are a complicated topic that will be covered in a later lesson, so just ignore them for now. Like any other type in Lua, they are first-class.
+*Concurrence* is handled via threads. Threading is a complicated topic that will be covered in a later lesson, so just ignore them for now. Like any other type in Lua, they are first-class.
 
 ## userdata
 If somehow the other seven data types aren't enough for you to do your work, you can still count on userdata. This type is reserved for atypical data in C, and so we won't bother with it until the C API lesson quite a long way down the road. We'll deal with **some** userdata values in the I/O lesson, but for now, you can set this aside.
 
 ---
 
-And… that's it! Eight basic types – five for regular data, one for two for special data, and one for the lonely void. Honestly, I make it a lot more complicated than it needs to be, largely because I don't want to expect that you're already fluent in another programming language. For whatever aspects of Lua's types aren't straightforward, trust that you'll understand them with practice and a little bit of experimentation.
+And… that's it! Eight basic types – five for regular data, two for special data, and one for the lonely void. Honestly, I make it a lot more complicated than it needs to be, largely because I don't want to expect that you're already fluent in another programming language. For whatever aspects of Lua's types aren't straightforward, trust that you'll understand them with practice and a little bit of experimentation.
 
 You can check a variable's type by calling the `type` function, which always returns a string containing the variable's type.
 

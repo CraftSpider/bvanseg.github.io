@@ -11,7 +11,7 @@ Lua's syntax feels somewhat natural to math, and often times pseudocode translat
 There are eight kinds of data in Lua. Other languages can have over twenty, or potentially infinite as the programmer can define more ways to hold data. By contrast, Lua's eight *data types*, as they're called, are simple yet flexible enough to suit every purpose you could possibly have.
 
 ### Lua paradigms make sense
-*Paradigms* are the "mindsets" of programming, to put it in a word. Not all languages are written in a "here's a list of instructions, do them in order", and so they are characterized by the programmers' mindsets they expect. Lua supports a healthy range of paradigms, allowing for many programmers' expectations and code styles to be satisfied without much unexpected behavior.
+*Paradigms* are the "mindsets" of programming, to put it in a word. Not all languages are written in a "here's a list of instructions, do them in order" mindset, and so they are characterized by the programmers' mindsets they expect. Lua supports a healthy range of paradigms, allowing for many programmers' expectations and code styles to be satisfied without much unexpected behavior.
 
 ---
 
