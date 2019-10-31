@@ -1,6 +1,6 @@
 # Chunks and Execution
 Lua is a scripting language, so all it needs to start executing code is some code to execute.  
-There's no need to write a `public static void main(String... args)` function -- just give it some code, and the Lua interpreter will run it. Easy!
+There's no need to write excess code just to convince the computer to run it – just give Lua's interpreter some code, and it will run. Easy!
 
 Most POSIX distributions will have a Lua build in their main repositories. I can personally vouch that Void Linux has Lua 5.3.5 and Pop!_OS has Lua 5.3.3 at-the-ready. These installs should provide a `lua5.3` executable and a `lua` symlink to it, both in `/usr/bin`.
 
@@ -13,6 +13,7 @@ Of course, I am bound by the limits of tradition. Let's write a Hello World:
 ```lua
 print("Hello, World!")
 ```
+
 That's it. Actually, you can drop the parentheses if you want to (which will be discussed in more detail in the Functions lesson). In case it isn't obvious enough, the `print` function displays the text it is given, and the quotes provide the text.
 
 ## Chunks
@@ -20,7 +21,7 @@ Each piece of code (read: sequence of commands and/or statements) in Lua is call
 
 ## The interactive interpreter
 When running interactively, every command entered is a chunk, and chunks are executed immediately. If you input the previous hello world example, it will print the text before giving you the chance to provide more code.  
-There are three ways to exit the interactive interpreter: use end-of-file (Ctrl+D or Ctrl+Z, OS-depending), call `os.exit()`, or use interrupt (Ctrl+C).
+There are three ways to exit the interactive interpreter: use end-of-file (Ctrl+D on POSIX or Ctrl+Z on Windows), call `os.exit()`, or use interrupt (Ctrl+C).
 
 The interactive interpreter will print the value of an expression even when `print` is not explicitly called. For instance, try inputting any of these:
 
