@@ -19,6 +19,8 @@ Hopefully, I've sold you on this marvellous language, and you're ready to dive r
 
 Most of these lessons are adapted from Programming In Lua, 4th Edition. I highly advise you buy the book – it goes into far more detail than I do, and was written by someone with *years* of experience teaching Lua. Plus, it is a major source of financially supporting the language.
 
+In these lessons, *italics* will be used when important terminology is brought up, and `monospace` will represent actual code, sometimes in larger boxes containing full examples.
+
 Cheers!  
 —wundrweapon
 
