@@ -16,7 +16,7 @@ until	while
 That said, Lua is case-sensitive, so while `if`, `then`, and `else` are all reserved, `If`, `THEN`, and `elsE` are not. PL/1 fans, this is your time to shine!
 
 ```lua
-if If then THEN = elsE else elsE = THEN
+if If then THEN = elsE else elsE = THEN end
 ```
 
 (Please, do not write code that bad, even if it runs…)
@@ -26,15 +26,17 @@ Lua takes a *very* abnormal approach to comments. Most programmers are familiar 
 Yes, I'm serious.
 
 ```lua
---Line comment
+--line comment
 
 --[[
-	Ranged
+	ranged
 	comment
 ]]
 ```
 
-The good news is, the block comment toggling trick from C-like comments still works in Lua, though it looks a little different. Ranged comments in Lua *must* begin with `--[[` and end with `]]`, and the only exception is adding a number of equals signs in between those brackets (which will be discussed more in the Strings lesson). Because of this specificity, it is common to circumfix code like this:
+Because of the `--` line comment prefix, it is common to use `-->` to show what a chunk might print. This is done in the Programming In Lua textbook, and will be done from here on in these lessons.
+
+Despite the madness, there is good news – the block comment toggling trick from C-like comments still works in Lua, though it looks a little different. Ranged comments in Lua *must* begin with `--[[` and end with `]]`, and the only exception is adding a number of equals signs in between those brackets (which will be discussed more in the Strings lesson). Because of this specificity, it is common to circumfix code like this:
 
 ```lua
 --[[
@@ -57,7 +59,7 @@ By adding the `--` to the end of the ranged comment, the code block can be toggl
 That all said, it's worth nothing that this isn't the only way to use triple-dashed ranged comments, but that doesn't need to be explained for a long time.
 
 ## Semicolons
-You may have noticed in the previous lesson that Lua does not need semicolons at the end of statements. Much like Python, these semicolons are allowed but optional, and most Lua developers don't use them at all. Sometimes it feels nice to put two statements on the same line, and a semicolon can help to separate them, but the interpreter actually doesn't need that! All of these lines are identical as far as the interpreter is concerned:
+You may have noticed in the previous lesson that Lua does not need semicolons at the end of statements, as some other languages do. Much like Python, these semicolons are allowed but optional, and most Lua developers don't use them at all. Sometimes it feels nice to put two statements on the same line, and a semicolon can help to separate them, but the interpreter actually doesn't need that! All of these lines are identical as far as the interpreter is concerned:
 
 ```lua
 a = 4 b = 5
@@ -65,4 +67,4 @@ a = 4  			b = 5
 a = 4; b = 5
 ```
 
-(You'll noticed I teased Lua's liberal spacing, too. So long as whitespace separates reserved words, the interpreter can usually just handle whatever terrible indentation you give it.)
+(You might have noticed I teased Lua's liberal spacing, too. So long as whitespace separates reserved words, the interpreter can usually just handle whatever terrible indentation you give it.)
