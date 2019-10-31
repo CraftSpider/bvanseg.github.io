@@ -3,7 +3,7 @@ Identifiers (variable names) can be any sequence of letters, numbers, and unders
 It is advised that you avoid all-caps identifiers that begin with an underscore (e.g. `_VARIABLE`) because these are expected to serve special purposes, and some have preset values that shouldn't be overridden. Also, a standalone underscore is a valid identifier, but that tends to be reserved for variables that need to be declared (such as in for loops) but go unused.
 
 ## Reserve words
-Lua, like most languages, has reserve words. These cannot be used as identifiers and the interpreter will treat them as syntax. Sorry PL/1 fans:
+Lua, like most languages, has reserve words. These cannot be used as identifiers and the interpreter will treat them as syntax:
 
 ```lua
 and		break	do		else		elseif
@@ -22,7 +22,7 @@ if If then THEN = elsE else elsE = THEN end
 (Please, do not write code that bad, even if it runs…)
 
 ## Comments
-Lua takes a *very* abnormal approach to comments. Most programmers are familiar with C-like comments (prefixed with `//` or circumfixed with `/* */`) or shell comments (prefixed with `#`, also called Pythonic). Lua comments, however, start with `--` or are circumfixed with `--[[ ]]`  
+Lua takes a **very** abnormal approach to comments. Most programmers are familiar with C-like comments (prefixed with `//` or circumfixed with `/* */`) or shell comments (prefixed with `#`, also called Pythonic). Lua comments, however, start with `--` or are circumfixed with `--[[ ]]`  
 Yes, I'm serious.
 
 ```lua

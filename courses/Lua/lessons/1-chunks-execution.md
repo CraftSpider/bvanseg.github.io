@@ -54,7 +54,7 @@ print("Hypotenuse length function created!")
 and I ran `dofile("func.lua")` in the interactive interpreter (pedant watch: the interpreter is assumed to have been executed in the same directory as `func.lua` exists). The print statement will execute, and you can now call the `hypotenuse` function.  
 Perhaps the opposite of `dofile` is calling the Lua interpreter with the `-i` option and giving it a file. Doing this executes the file and then starts the interactive interpreter without clearing what was done before. In our example, running `lua -i func.lua` would print the text and then start up the interactive interpreter with the `hypotenuse` function still available.
 
-Here's another trick, just for POSIX users: if the *first character* in a Lua script is `#`, then the first line will be interpreted as a comment. Give you any ideas?
+Here's another trick, just for POSIX users: if the **first character** in a Lua script is `#`, then the first line will be interpreted as a comment. Give you any ideas?
 
 ```lua
 #!/usr/bin/lua
@@ -67,4 +67,4 @@ Here's another trick, just for POSIX users: if the *first character* in a Lua sc
 
 You can shebang a Lua script! From there, just add execution permisisons (possibly via `chmod +x`) and you can execute the file directly without having to explicitly call the interpreter.
 
-This is the only time the `#` character is used in an abnormal manner (it *does* have another use, which we will see in a later lesson), so don't get used to shell comments!!
+This is the only time the `#` character is used in an abnormal manner (it **does** have another use, which we will see in a later lesson), so don't get used to shell comments!!
