@@ -42,8 +42,8 @@ Welcome to the C course!
 - [Strings](tutorials/C_strings.md)
 - [Structs](tutorials/C_structs.md)
 - [Unions](tutorials/C_unions.md)
-- [Typedef]() [IN PROGRESS]
-- [Bit Fields]() [EMPTY]
+- [Typedef]()
+- [Bit Fields]() [IN PROGRESS]
 - [Header Files]() [EMPTY]
 - [File I/O](tutorials/C_files.md) [EMPTY]
 
