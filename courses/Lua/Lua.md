@@ -29,9 +29,9 @@ Cheers!
 ## Tutorials:
 
 ### Beginner
-- [Chunks and Execution](lessons/1-chunks-execution.md)
-- [Conventions](lessons/2-conventions.md)
-- [Variables and Types](lessons/3-variables-types.md)
+- [Chunks and Execution](tutorials/1-chunks-execution.md)
+- [Conventions](tutorials/2-conventions.md)
+- [Variables and Types](tutorials/3-variables-types.md)
 
 ### Intermediate
 
