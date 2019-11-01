@@ -68,3 +68,7 @@ a = 4; b = 5
 ```
 
 (You might have noticed I teased Lua's liberal spacing, too. So long as whitespace separates reserved words, the interpreter can usually just handle whatever terrible indentation you give it.)
+
+[![Discord](https://img.shields.io/discord/609993365832073217?color=7289da&label=discord)](https://discord.gg/Sw3npy4)
+
+[Home](https://bvanseg.github.io)
