@@ -197,7 +197,7 @@ Luckily, the people that created C *also* agree that this code is horrendous. So
 
 ``student.courses->grade = 55.0;``
 
-The ``->`` is just another way to **dereference** ``courses`` without using the ``*``.
+The ``->`` is just another way to **dereference** ``courses`` without using the ``*`` around the entire statement.
 
 Alternatively, we could have very easily also done this:
 
@@ -207,7 +207,7 @@ It's up to you how you want to set up your code! But trust me, the last two are 
 
 ## Helpful Tips
 - **"I'm getting strange numbers when using my struct! What's going on?"**
-    - You have likely not **initialized** your ``struct``'s data to a value. This is especially true if you're working with nested ``struct``s, and had to ``malloc`` space for them. When you do that, don't forget that you should probably populate all of the ``struct``s in your memory with data, **even if you don't plan on using all them!** Because then you can use numbers like ``-1`` for a course ID to signify that the course is just blank/empty.
+    - You have likely not **initialized** your ``struct``'s data to their respective values. This is especially true if you're working with nested ``struct``s, and had to ``malloc`` space for them. When you do that, don't forget that you should probably populate all of the ``struct``s in your memory with data, **even if you don't plan on using all them!** Because then you can use numbers like ``-1`` for a course ID to signify that the course is just blank/empty.
 - **"Can you nest struct brackets in brackets?"**
     - Absolutely. Consider if we only had one course for students for our student/course example above. We could have very well just done this:
 ```c
