@@ -17,7 +17,7 @@ Welcome!
 ### Intermediate
 - [Data Structures]() [EMPTY]
 - [Sorting Algorithms]() [EMPTY]
-- [Time Complexity]() [EMPTY]
+- [Time Complexity](tutorials/CS_time_complexity.md) [EMPTY]
 - [P vs NP]() [EMPTY]
 - [Race Conditions]() [EMPTY]
 - [Mutual Exclusion]() [EMPTY]
