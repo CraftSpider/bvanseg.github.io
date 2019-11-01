@@ -68,3 +68,7 @@ Here's another trick, just for POSIX users: if the **first character** in a Lua 
 You can shebang a Lua script! From there, just add execution permisisons (possibly via `chmod +x`) and you can execute the file directly without having to explicitly call the interpreter.
 
 This is the only time the `#` character is used in an abnormal manner (it **does** have another use, which we will see in a later lesson), so don't get used to shell comments!!
+
+[![Discord](https://img.shields.io/discord/609993365832073217?color=7289da&label=discord)](https://discord.gg/Sw3npy4)
+
+[Home](https://bvanseg.github.io)

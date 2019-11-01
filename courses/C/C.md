@@ -29,6 +29,7 @@ Welcome to the C course!
 - [For Loops](tutorials/C_for_loop.md)
 - [While Loops](tutorials/C_while_loop.md)
 - [Do-While Loops](tutorials/C_do_while_loop.md)
+- [Enums]() [EMPTY]
 
 ### Intermediate
 - [Functions](tutorials/C_functions.md)
@@ -40,21 +41,21 @@ Welcome to the C course!
 - [Pointers (Pass-By-Value vs Pass-By-Reference)](tutorials/C_pointers_part3.md)
 - [Strings](tutorials/C_strings.md)
 - [Structs](tutorials/C_structs.md)
-- [Typedef]() [EMPTY]
-- [Bit Fields]() [EMPTY]
-- [Header Files]() [EMPTY]
-- [Unions](tutorials/C_unions.md) [EMPTY]
+- [Unions](tutorials/C_unions.md)
+- [Typedef](tutorials/C_typedef.md)
+- [Bit Fields](tutorials/C_bitfields.md)
+- [Header Files]() [IN PROGRESS]
 - [File I/O](tutorials/C_files.md) [EMPTY]
 
 ### Advanced
-- [Introduction to C's Memory Layout]() [EMPTY]
-- [Text Segment]() [EMPTY]
-- [Initialized Data Segment]() [EMPTY]
-- [Uninitialized Data Segment]() [EMPTY]
-- [The Stack]() [EMPTY]
-- [The Heap]() [EMPTY]
-- [Variadic Arguments]() [EMPTY]
 - [Struct Alignment]() [EMPTY]
+- [Variadic Arguments]() [EMPTY]
+- [Introduction to C's Memory Layout]() [EMPTY]
+    - [Text Segment]() [EMPTY]
+    - [Initialized Data Segment]() [EMPTY]
+    - [Uninitialized Data Segment]() [EMPTY]
+    - [The Stack]() [EMPTY]
+    - [The Heap]() [EMPTY]
 
 
 ## Examples

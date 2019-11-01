@@ -26,10 +26,16 @@ Cheers!
 
 ---
 
-Tutorials:
-- [Chunks and Execution](lessons/1-chunks-execution.md)
-- [Conventions](lessons/2-conventions.md)
-- [Variables and Types](lessons/3-variables-types.md)
+## Tutorials:
+
+### Beginner
+- [Chunks and Execution](tutorials/1-chunks-execution.md)
+- [Conventions](tutorials/2-conventions.md)
+- [Variables and Types](tutorials/3-variables-types.md)
+
+### Intermediate
+
+### Advanced
 
 [![Discord](https://img.shields.io/discord/609993365832073217?color=7289da&label=discord)](https://discord.gg/Sw3npy4)
 

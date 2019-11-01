@@ -114,6 +114,127 @@ struct student student2 = { -1, 95.0 };
 ```
 Try experimenting with ``struct``s and what you can do with them! And Remember, they can hold variables with any ``type``, even other ``struct``s and ``pointer``s!
 
+## Structs with Pointers
+We can combine ``struct``s and ``pointer``s to do powerful and complex data handling.
+
+Recall that data is data. No matter what type you're working with in C, at the end of the day, it's just a bunch of bytes.
+
+Since the above is true, it is also true that ``struct``s are bytes, and therefore, have a starting address in memory. Since this is also true, we can create ``pointer``s of ``struct``s. And if we can do that, then we can also allocate huge chunks of data for multiple ``struct``s in a row.
+
+Consider the following scenario. You are a teacher. You need to make a program in which you associate ``Courses`` with ``Students``. We know that a ``Course`` as they pertain to a student have a **name** and a numeric **grade** associated with them:
+```c
+struct Course {
+    char* name;
+    float grade;
+};
+```
+Now consider a ``Student``. A ``Student`` can have a **name**, **id**, **GPA**, and, most importantly, a set of **courses**:
+```c
+struct Student {
+    char* name;
+    int id;
+    float gpa;
+    struct Course* courses; // Notice the struct keyword, because we have not made Course a type definition (typedef).
+};
+```
+How interesting. We are already familiar with how ``pointer``s and memory allocation behave. So we can guess that the ``courses`` for the ``Student`` ``struct`` are gonna need some room in our RAM!
+
+So when we create a ``Student``, it's very important that we make sure to allocate space for the student's courses. Let's just say for now that students can have 7 courses:
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+struct Course {
+    char* name;
+    float grade;
+};
+struct Student {
+    char* name;
+    int id;
+    float gpa;
+    struct Course* courses;
+};
+
+int main() {
+
+    struct Student student;
+    student.name = "John Doe";
+    student.id = 0;
+    student.gpa = 4.00;
+    student.courses = malloc(sizeof(struct Course) * 7);
+
+    return 0;
+}
+```
+Note that, we could have also set up our student this way, too:
+```c
+struct Student student = {"John Doe", 0, 4.00, malloc(sizeof(struct Course) * 7)};
+```
+Either way is fine. Just recall that for both methods, the initial ``string`` name you give the student will be considered the maximum possible size that string can be. So if you don't want to set the name of the student, but merely allocate space, you can do this:
+```c
+struct Student student = { malloc(50), 0, 4.00, malloc(sizeof(struct Course) * 7)};
+```
+
+Now that we have our student set up, we can just access our courses from the student as ``array`` elements and manipulate them as usual. Let's set the first course for our student:
+
+```c
+*(student.courses) = (struct Course){ "Computer Science", 100.0 };
+```
+Notice that we do ``(struct Course)`` to explicitly tell C "hey, this data right here? This is a course. In case you didn't know.". C will then be perfectly content with doing this.
+
+## The ``->`` Operator
+From the previous section, you may have also noticed that we are dereferencing the **courses** itself, not the actual student, since:
+ 1. The student is not a pointer.
+ 2. The entire statement becomes whatever the ``type`` of the last data referenced in the chain call. That is to say, since we referenced ``courses`` last in that chain, C sees ``student.courses`` as the type ``Course*``, aka the type of the last data referenced.
+
+But yuck! That syntax ``*(student.courses)`` is pretty annoying to type! And what's worse is, consider if we had to change our course grade if the student failed a paper:
+
+``(*(student.courses)).grade = 55.0;``
+
+(This is probably the worst C code I've ever written!).
+
+Luckily, the people that created C *also* agree that this code is horrendous. So, they gave us a nifty little operator called the **arrow operator** (``->``) to simplify it:
+
+``student.courses->grade = 55.0;``
+
+The ``->`` is just another way to **dereference** ``courses`` without using the ``*`` around the entire statement.
+
+Alternatively, we could have very easily also done this:
+
+``student.courses[0].grade = 55.0;``
+
+It's up to you how you want to set up your code! But trust me, the last two are *probably* better. ;)
+
+## Helpful Tips
+- **"I'm getting strange numbers when using my ``struct``! What's going on?"**
+    - You have likely not **initialized** your ``struct``'s data to their respective values. This is especially true if you're working with nested ``struct``s, and had to ``malloc`` space for them. When you do that, don't forget that you should probably populate all of the ``struct``s in your memory with data, **even if you don't plan on using all them!** Because then you can use numbers like ``-1`` for a course ID to signify that the course is just blank/empty.
+- **"Can you initialize ``struct``s inside of ``struct``s?"**
+    - Absolutely. Consider if we only had one course for students for our student/course example above. We could have very well just done this:
+    
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+struct Course {
+    char* name;
+    float grade;
+};
+struct Student {
+    char* name;
+    int id;
+    float gpa;
+    struct Course course;
+};
+
+int main() {
+
+    struct Student student = {"John Doe", 0, 4.00, { "Computer Science", 100.0 }};
+
+    student.course.grade = 55.0;
+
+    return 0;
+}
+```
 
 [![Discord](https://img.shields.io/discord/609993365832073217?color=7289da&label=discord)](https://discord.gg/Sw3npy4)
 
