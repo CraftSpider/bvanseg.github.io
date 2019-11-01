@@ -48,14 +48,14 @@ Welcome to the C course!
 - [File I/O](tutorials/C_files.md) [EMPTY]
 
 ### Advanced
-- [Introduction to C's Memory Layout]() [EMPTY]
-- [Text Segment]() [EMPTY]
-- [Initialized Data Segment]() [EMPTY]
-- [Uninitialized Data Segment]() [EMPTY]
-- [The Stack]() [EMPTY]
-- [The Heap]() [EMPTY]
-- [Variadic Arguments]() [EMPTY]
 - [Struct Alignment]() [EMPTY]
+- [Variadic Arguments]() [EMPTY]
+- [Introduction to C's Memory Layout]() [EMPTY]
+    - [Text Segment]() [EMPTY]
+    - [Initialized Data Segment]() [EMPTY]
+    - [Uninitialized Data Segment]() [EMPTY]
+    - [The Stack]() [EMPTY]
+    - [The Heap]() [EMPTY]
 
 
 ## Examples
