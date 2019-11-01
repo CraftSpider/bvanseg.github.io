@@ -1,5 +1,9 @@
 # Welcome!
-Get started with:
+
+## Concepts:
+- [Computer Science](courses/CS/CS.md) (**START HERE**)
+
+## Languages:
 - [C](courses/C/C.md)
 - [C++](courses/CPP/CPP.md)
 - [Lua](courses/Lua/Lua.md)
